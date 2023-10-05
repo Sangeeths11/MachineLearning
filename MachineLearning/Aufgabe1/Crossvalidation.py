@@ -16,3 +16,4 @@ clf = RandomForestClassifier(n_estimators=100, random_state=42) # random_state f
 # Cross-Validation
 scores = cross_val_score(clf, X, y, cv=5)  # 5 Folds
 print("Durchschnittliche Genauigkeit:", scores.mean())
+
